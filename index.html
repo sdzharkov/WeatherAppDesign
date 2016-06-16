@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href="normalize.css"></link>
+        <link rel="stylesheet" href="style.css"></link>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+    <div class = "container">
+        <div class="box">
+            <div class="container-1">
+                <input name ="city" type="search" id="search" placeholder="Enter City" onkeypress="return runMe(event)" />
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="jumbotron-contents">
+                <h1 id="date"></h1>
+                <h1 id="num2"></h1>
+                <h2 id="actual"></h2>
+            </div>
+            <div class="contents2">
+                <h1 id="jcity"></h1>
+                <h3 id="jcountry"></h1>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div id="today" class="flex-item">Current
+                <p class="datez"></p>
+                <i class="icon"></i>
+                <p id="now"></p>
+            </div>
+            <div id="extra" class="flex-item">
+                <p class="extra" id="highz"></p>
+                <p class ="extra" id="lowz"></p>
+                <p class="extra" id="textz"></p>
+            </div>
+            <div id="box1" class="flex-item">
+                <p class="datez"></p>
+                <i class="icon"></i>
+                <p class="high"></p>
+            </div>
+            <div id="box2" class="flex-item">
+                <p class="datez"></p>
+                <i class="icon"></i>
+                <p class="high"></p>
+            </div>
+            <div id="box3" class="flex-item">
+                <p class="datez"></p>
+                <i class="icon"></i>
+                <p class="high"></p>
+            </div>
+            <div id="box4" class="flex-item">
+                <p class="datez"></p>
+                <i class="icon"></i>
+                <p class="high"></p>
+            </div>
+            <div id="box5" class="flex-item">
+                <p class="datez"></p>
+                <i class="icon"></i>
+                <p class="high"></p>
+            </div>
+        </div>
+    </div>
+
+        <div id="yahoo">
+            <img src="icons/yahoo.png">
+        </div>
+
+    <script src="https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid =2389646&format=json&callback=placeCallback">
+    </script> 
+    </body>
+</html>

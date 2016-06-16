@@ -1,0 +1,15 @@
+Stephan's Weather App
+
+This weather app truly made me understand the capabilities of JavaScript. After writing many lines of redundant code, I did some research and realized the power and "eloquence" that JavaScript has. Prototype functions, I liked it. I was really skeptical about the MVC structure in the beginning, but after some Google development pages I realized it's an incredibly smart structure. While this app is so small it almost didn't make sense to use it, the MVC structure is used for all types of app development and perfectly structures your code. 
+
+Now, I chose to do my own design because I didn't want to be constrained by someone else's ideas. I liked some of the Pixel designs, but I  had this vision of a nice home-based weather page. I respect the Pixel group, but I got that feeling that they have never touched code in their life and don't know how hard it is to do some of the things they wanted. Besides the point, their flat and minimalist styles are considered "in" at the moment but I still wanted a touch of my own design on this.
+
+My page is a simple home page type of weather app that is more personal. That's why it says "Good afternoon". I mean I could quickly remove that to please everyone but I wanted something for my own personal use. The bottom portion gives current conditions (I could have added more but those were the one's I actually look at) and the boxes next to it are the high's for the following days. 
+
+I used flexbox's because they're a really effective way of creating small grids. The fact that I am able to create a quick grid with very simple, resizing css properties is great. Yes it is less work, but i belive we should use the tools we have. CSS frameworks are awesome and convenient, and save a lot of time over the design when you have to focus on the back-end. I also used Normalize.css because from past experience I have learned about how the css file really make things run clearer and cleans up any unwanted css. 
+
+I used innerHTML because it was so much more convenient to implement rather than constantly appending the DOM. 
+
+My app is not responsive and or mobile. I needed to get into the resizing qualities of flexbox because before I added a bunch of css properties, the boxes were able to perfectly shift around responsively. If I had more time I would definitely be able to make it mobile. The code structure is there, all I need is to play around with the css some more and use media queries. 
+
+Yes, the background image does not change, but this is explained by the homepage type of layout I described before. I honestly really enjoyed this project (even though it was tedious) and might even add on code later on to display in on my LinkedIn. 
